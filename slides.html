@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Ladies Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/llc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> wifi network</p>
+        <p><strong>Password:</strong> wifi password</p>
+        <hr>
+
+        <h2>Download<br> & Install</h2>
+        <ol class="downloads">
+          <li>Learner files (zip file): <a href="https://github.com/ladieslearningcode/workshop-repo-name/archive/master.zip">http://bit.ly/create-custom-url</a>
+            <ul>
+              <li>unzip the learner file (<em>extract all</em> if you’re on a PC)</li>
+              <li>open <em>slides.html</em> in the browser to view the slides</li>
+            </ul>
+          </li>
+          <li>Atom Editor: <a href="http://atom.io">http://atom.io</a></li>
+          <li>Chrome Browser: <a href="https://www.google.ca/chrome/browser/desktop/">https://www.google.ca/chrome</a></li>
+          </li>
+        </ol>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slides created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/llc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Introduction<br>
+        To Pixlr</span>
+      </h1>
+
+      <!-- FILL IN INSTRUCTOR DETAILS
+      <img class="instructor" src="http://placehold.it/225x225" alt="Instructor Name">
+      <h2><span class="cursive">with</span> Instructor name</h2>
+      <ul>
+        <li><a href="mailto:">hello@email.com</a></li>
+        <li><a href="http://website.com">website.com</a></li>
+        <li><a href="http://twitter.com/">@twitter</a></li>
+      </ul>
+      -->
+
+      <div class="sponsor">
+        <p>In partnership with<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slides created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #What is Pixlr?
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Pixlr
+
+        Pixlr is like a free, concise version of Photoshop that is accessible to all. Like Photoshop, it is generally used for photography purposes.
+
+        We'll cover things like:
+
+        * Creating layers<!-- .element: class="delayed" -->
+        * Transforming elements<!-- .element: class="delayed" -->
+        * Using filters and blend modes<!-- .element: class="delayed" -->
+        * Integrating text and vectors<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Interface Basics
+        ##Getting to know Pixlr
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Welcome to Pixlr
+        ![Pixlr Layout](framework/img/workshop/pixlrlayout.jpg)
+       </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Let's Get Started!
+
+        Open up Pixlr at <a href="https://pixlr.com/editor">pixlr.com/editor</a>
+
+        ![Launch web app](framework/img/workshop/launch-web-app.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Getting Started
+
+        There are two primary ways to work inside Pixlr. One is to open an existing image or file, the other is to create a new composition from scratch. For now, we're going to open an existing file to get to know our way around the interface.
+
+        Select: **Open image from computer**.
+
+        ![Open image](framework/img/workshop/getting-started1.png)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Open Image:
+        ##01_Learn_Layers.pxd
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #PXD
+
+        ##Wait! What's a .pxd file?
+
+        PXD is similar to a PSD file in Photoshop. This is a layered image file, which maintains our layers so that we can keep editing. When we save as a PNG or JPEG (for example) our layers will merge into one.
+
+        Be sure to save today's images as PXD files!
+
+        ![save as pxd](framework/img/workshop/savepxd.png)
+
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown data-toc>
+      <script type="text/template">
+        #Menu Options
+
+        * File menu
+          * We can also access options to open images or create new images here
+          * Where we SAVE! (or get into the habit of hitting ctrl+S!)<br>
+          ![menu screenshot](framework/img/workshop/file-menu.png)
+        * Layer menu
+          * Contains items that affect individual layers: new layer, duplicate layer, rasterization etc.<br>
+          ![menu screenshot](framework/img/workshop/layer-menu.png)
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown data-toc>
+      <script type="text/template">
+        #Menu Options
+
+        * View menu
+          * Affects the way you are viewing the document
+          * Zoom level and actual pixels (actual size)
+          * Show or hide windows (like the Layers window)<br>
+          ![menu screenshot](framework/img/workshop/view-menu.png)
+        * Help menu
+          * Helpful to use if you run into any troubles, this tab can lead you to links to solve the situation.
+          * This will take you to the Pixlr Support page<br>
+          ![menu screenshot](framework/img/workshop/help-menu.png)<br>
+          ![screenshot of pixlr support page](framework/img/workshop/pixlr-support.png)
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown data-toc>
+      <script type="text/template">
+        #Tools
+
+        * Tool Options
+          * These are all the things your mouse cursor can become. Everything from a paint brush to a magic wand, or a plain ol’ arrow. Tools have shortcuts too!
+          * Hover over the icon to see it's shortcut
+        * ![tool options](framework/img/workshop/tools.png)
+
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Option Bar
+
+        ![tool options](framework/img/workshop/option-bar.png)
+
+        The option bar appears on the top and changes according to the tool. Keep an eye on this for more options within each tool that you use.
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #History
+        ![History tab](framework/img/workshop/history.jpg)
+        <ul>
+          <li>Similar to undo (or Ctrl + Z)</li>
+          <li>History saves all of our actions </li>
+          <li>We can use it to go back if we make a mistake</li>
+        </ul>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Working with Layers
+
+        ##Create a new layer named Background
+
+        ![layer, new layer](framework/img/workshop/new-layer.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Layers
+
+        Everything in Pixlr (and life) is created by layering different elements on top of each other like a collage. Type, images, background colour, etc. each represent one layer.
+
+        Layers are, without a doubt, the **most important** aspect of Pixlr. You can hide them, lock them, blend them, change their opacity, and add effects to them.
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Layers
+          ![Layers tab](framework/img/workshop/layers.jpg) <br>
+          <ul>
+            <li>Layers are transparent sheets that we lay on top of each other</li>
+            <li>By using layers, we can easily delete or move around different parts of our project</li>
+            <li>We can move the order of layers (from front to back)</li>
+            <li>We can hide or show layers with the check box</li>
+          </ul>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Hidden Layers
+
+        The eyeball to the left of a layer indicates whether or not the layer is visible.
+
+        Try it out:
+
+        1. Drag your new Background layer below the Smile layer
+        1. Make the Shirt layer visible
+        1. Reorder the person until you're happy with how they look
+
+        ![full view of layers](framework/img/workshop/hidden-layers.png)
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown data-toc>
+      <script type="text/template">
+        #Example
+
+        ![example layers project](framework/img/workshop/layers-final.png)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Photo-Editing
+
+        ##The art of putting Ryan Gosling's<br> head on a sea turtle
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Open Image
+
+        Open the turtle image. Go to **File > Open Image** and select the Sea-turtle file.
+
+        ![open image](framework/img/workshop/open-image.png)
+
+        ![select Sea-turtle image](framework/img/workshop/open-image-turtle.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Open Image as Layer
+
+        Open the Ryan Gosling image. Go to **Layer > Open image as layer** and select the Ryan-Gosling file.
+
+        ![open image](framework/img/workshop/open-image-as-layer.png)
+        ![select Ryan-Gosling image](framework/img/workshop/open-ryan.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Free Transform
+        ![Edit, free transform](framework/img/workshop/freetransform.jpg)
+          <ul>
+            <li> Free Transform lets us transform (or change) parts of our project</li>
+            <li> Rotate, scale, skew, distort, and perspective </li>
+            <li> Helps us resize parts of our project so they blend nicely </li>
+            <li> Shortcut is **Shift + T** </li>
+          </ul>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Resize Ryan
+
+        Use the Transform tool to resize the Ryan Gosling image.  Hold down **Shift** while you resize to avoid distorting the image. Hit **Enter** when you're finished.
+
+        ![use transform tool](framework/img/workshop/resize-ryan.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Selections
+
+        There are many ways to target specific pixels you intend to effect. The lasso and marquee tool are good for selecting polygonal shapes or when edges are not clear. Since there is a clear distinction between our subject and the background, you can just use the **Wand tool** to cut it out.
+
+        Select the Wand tool, click on the white space, then hit **delete** (backspace).
+
+        ![wand tool](framework/img/workshop/wand-select.png)
+
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Final Touches
+
+        Use the **Eraser tool** to erase every but Ryan Gosling’s face. Feel free to change the size of the erase accordingly and if needed- zoom in!
+
+        Use the Options tab to change the size and opacity. (You may want to zoom in!)
+
+        ![eraser options](framework/img/workshop/eraser-tool.png)
+
+        <em>Note: If the 'marching ants' outline doesn't go away, select the Marquee tool, then click anywhere on your image</em>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Layer Styles
+
+        Optional: Apply a style to Ryan's head using the **Layer Styles** tool.
+
+        ![add layer style](framework/img/workshop/layer-styles.png)
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown data-toc>
+      <script type="text/template">
+        #Don't forget to save!
+
+        ![file, save](framework/img/workshop/save-ryan.png)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Personal Brand
+
+        ##Building elements that define ourselves
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown data-toc>
+      <script type="text/template">
+        #Moodboard Example
+
+        ![example moodboard](framework/img/workshop/moodboard-eg.png)
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown data-toc>
+      <script type="text/template">
+        #Open the Template
+
+        ![template](framework/img/workshop/moodboard-template.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Finding Photos
+
+        Free stock photos: [https://www.pexels.com/](https://www.pexels.com/)
+
+        Check out this list for more resources: [http://medium.com/design-ux/62ae4bcbe01b](http://medium.com/design-ux/62ae4bcbe01b)
+
+        **Be sure to save links to files so you can properly reference your sources**
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Placing Images
+
+        Select **Layer > Open image as layer**.
+
+        Then resize using the transform tool (**Shift + T**)
+
+        ![replace image 1](framework/img/workshop/edit-header-1.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Deleting Layers
+
+        Delete any layers that you no longer need. Right click on the layer > **Delete Layer** OR drag the layer down to the trash can icon.
+
+        ![right click, delete layer](framework/img/workshop/delete-layer.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Cropping Images
+
+        You may need to crop images before adding them to the template.
+
+        1. **File > Open image** and select the file
+        1. Use the **Crop tool**: Click and drag to select the new image size, then hit **Enter** to apply
+        1. **Save** the new image
+        1. Go back to your moodboard template and **Open image as layer**
+
+        ![use the crop tool](framework/img/workshop/crop-image.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Tip: Rename Layers
+
+        Keep your layers organized by renaming them! (Double-click on the name to edit)
+
+        ![double click to rename](framework/img/workshop/rename-layers.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Editing Text
+
+        1. Select the text layer that you want to edit
+        1. Select the **Text tool** (ctrl + T) and double-click on the actual text
+        1. Use the pop-up window to edit, then click OK
+
+        ![text window](framework/img/workshop/edit-text.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Colour Overlay
+
+        If you want to create more contrast between your text and cover photos, try adding a colour overlay. We can create this effect by changing the opacity of a shape.
+
+        1. New layer!
+        1. Select the shape tool (rectangle)
+        1. We need to specify the opacity and fill colour first - set a low opacity and dark colour
+        1. Draw the rectangle over your cover images
+        1. If you want to change the effect, you'll need to UNDO (use history or ctrl+Z), then change the style and re-draw
+
+        ![set opacity and colour in options menu](framework/img/workshop/colour-overlay.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Colour Palette
+
+        Go over to [http://color.adobe.com](http://color.adobe.com) to find a colour palette.
+
+        Copy and paste the hex codes from your palette into your project.
+
+        ![copy the hex code](framework/img/workshop/hex-code.png)
+        ![paste the hex code](framework/img/workshop/hex-code2.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Updating Brand Colours
+
+        Update the colours on your moodboard:
+
+        1. Create a new layer
+        1. Update the opacity and fill colour
+        1. Draw the shape
+        1. Rename the layer (+ delete the old layer)
+        1. Use the Type tool to update the colour label (#000000)
+
+        **Be sure to set the Opacity back to 100% in the Options menu**
+
+        ![new colour swatch](framework/img/workshop/fill-colour.png)
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown data-toc>
+      <script type="text/template">
+        #Example
+
+        ![colour swatch](framework/img/workshop/swatch-eg.png)
+
+        ##Don't forget to save! (as PXD)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Typeface
+
+        Select the "Font Name" layer and use the Type tool to choose your font. Update the character preview (alphabet) as well.
+
+        ![choose font](framework/img/workshop/choose-font.png)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Logo Design
+
+        ##Making a simple and minimal logo
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Choosing an Icon
+
+        Go to [http://thenounproject.com](http://thenounproject.com) and pick out an icon.
+
+        Download as a **PNG > Creative Commons**. (You may need to sign in/create an account!)
+
+        Open it as a new layer in Pixlr.
+
+        ![download as png](framework/img/workshop/download-icon.png)
+
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Duplicating Layers
+
+        To save time, duplicate and rename your logo layer.
+
+        ![duplicate](framework/img/workshop/duplicate-layer.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #TIP: Invert Colours
+
+        Instead of downloading different versions of the same icon, we can invert the colour so that it shows up on a darker background. Go to **Adjustment > Invert**.
+
+        ![select invert](framework/img/workshop/invert.png)
+        ![example](framework/img/workshop/logo-eg.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Business Card
+
+        Update the contact info on your business card (you can also use fake info for this). Select the text layer, then use the **Type tool** to make changes.
+
+        ![update contact info](framework/img/workshop/business-card.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Save your Moodboard
+
+        Update your saved PXD file.
+
+        When you are all finished, save a copy as a PNG or JPEG, as well. This version can be easily viewed and shared outside of Pixlr.
+
+        ![save as png](framework/img/workshop/save-final.png)
+
+      </script>
+    </section>
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>Introduction<br>To Pixlr</span>
+      </h2>
+      <!-- Instructor details
+      <img class="instructor" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="instructor name">
+      <h2><span class="cursive">with</span> Instructor Name</h2>
+      <ul>
+        <li><a href="mailto:">hello@email.com</a></li>
+        <li><a href="#">mywebsite.com</a></li>
+        <li><a href="http://twitter.com/">@twitter</a></li>
+      </ul>
+      -->
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
