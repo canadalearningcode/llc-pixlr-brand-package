@@ -1,4 +1,8 @@
-#Ladies Learning Code ##Intro to Pixlr: Creating Your Personal Brand Package
+# Ladies Learning Code
+
+## Intro to Pixlr: Creating Your Personal Brand Package
+
+Preview slides: https://ladieslearningcode.github.io/llc-pixlr-brand-package/slides.html#slide1
 
 A full day introductory to Pixlr workshop.
 
