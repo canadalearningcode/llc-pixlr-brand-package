@@ -24,7 +24,6 @@ Here's an easy way to attribute content back to us - please include it wherever 
 
 "Please note that this is not a [Canada Learning Code](https://www.canadalearningcode.ca/) affiliated event, but we want to acknowledge the organization for the creation of [the content](https://github.com/ladieslearningcode) being delivered under Creative Commons license"
 
-
 ### Contributing
 
 Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
